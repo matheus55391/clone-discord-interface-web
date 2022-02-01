@@ -1,7 +1,12 @@
+
+import { DiscordLayout } from "./shared/layouts/DiscordLayout"
+import { GlobalStyle } from "./shared/styles"
+
 export const App = () =>{
   return(
     <>
-      Teste
+      <DiscordLayout/>
+      <GlobalStyle/>
     </>
   )
 }
