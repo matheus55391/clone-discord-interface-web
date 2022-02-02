@@ -25,7 +25,7 @@ export const Separator = styled.div`
     height: 10px;
     
     
-    border-bottom:2px solid var(--symbol);
+    border-bottom: 2px solid var(--quaternary);
     margin-bottom: 8px;
 
 `

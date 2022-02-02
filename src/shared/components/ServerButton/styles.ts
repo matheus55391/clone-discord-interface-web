@@ -11,5 +11,6 @@ export const Button = styled.button`
     padding: 5px 3px;
     cursor: pointer;
     flex-shrink: 0;
+    background-color: var(--symbol);
 
 `
