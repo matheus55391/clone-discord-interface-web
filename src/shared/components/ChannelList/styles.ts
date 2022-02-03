@@ -11,25 +11,13 @@ export const Container = styled.div`
     max-height: 100vh;
     overflow-y: scroll;
     width: 100%;
-    ::-webkit-scrollbar {
-        width: 5px;
-        background-color: transparent;
+    ::-webkit-scrollbar {        
+        width: 5px;   
     }
-
-    ::-webkit-scrollbar-button {
-        display: none;
-        width: 0;
-        height: 0;
-    }
-
-    ::-webkit-scrollbar-corner {
-        background-color: transparent;
-    }
-
     ::-webkit-scrollbar-thumb {
+        
         background-color: #282a2d;
-        border: 2px solid #282a2d;
-        border-radius: 10px;
+        border-radius: 15px;
     }
 `
 
@@ -47,7 +35,7 @@ export const ChatButton = styled.button`
     font-weight: bold;
     border-radius: 3px;
     height: 34px;
-    font-size : 95%;
+    font-size : 100%;
     &:hover{
         background-color: #36393F;
         color: #FFFFFF;
