@@ -1,9 +1,59 @@
-import { Container } from "./styles"
+import { Container, ChatButton } from "./styles"
 
 export const ChannelList = () =>{
     return(
         <Container>
-
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            <ChatButton>Teste</ChatButton>
+            
         </Container>
     )
 }
