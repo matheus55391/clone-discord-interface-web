@@ -1,4 +1,4 @@
-import { ChannelList, ChannelInfo, ServerList, ServerName, UserList, Chat, UserInfo } from '../../components'
+import { ChannelList, ChannelInfo, ServerList, ServerName, UserList, ChannelChat, UserInfo } from '../../components'
 import { Grid } from './styles'
 export const DiscordLayout = () =>{
     return (
@@ -8,7 +8,7 @@ export const DiscordLayout = () =>{
             <ChannelInfo/>
             <ChannelList/>
             <UserList/>
-            <Chat/>
+            <ChannelChat/>
             <UserInfo/>
         </Grid>
     )
