@@ -51,7 +51,7 @@ export const Input = styled.input`
         top: -50%;
         left: 14px;
         transition: 180ms ease-in-out;
-  }
+    }
   
 `
 export const InputIcon = styled(AlternateEmail)`
