@@ -1,4 +1,4 @@
-import{s as n,j as p,A as u,r as x,W as f,R as b,a as m}from"./vendor.2bee8200.js";const v=function(){const c=document.createElement("link").relList;if(c&&c.supports&&c.supports("modulepreload"))return;for(const o of document.querySelectorAll('link[rel="modulepreload"]'))h(o);new MutationObserver(o=>{for(const i of o)if(i.type==="childList")for(const a of i.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&h(a)}).observe(document,{childList:!0,subtree:!0});function d(o){const i={};return o.integrity&&(i.integrity=o.integrity),o.referrerpolicy&&(i.referrerPolicy=o.referrerpolicy),o.crossorigin==="use-credentials"?i.credentials="include":o.crossorigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function h(o){if(o.ep)return;o.ep=!0;const i=d(o);fetch(o.href,i)}};v();const y=n.div`
+import{s as n,j as h,T as u,M as f,A as m,r as x,W as b,R as v,a as y}from"./vendor.d8fc64aa.js";const w=function(){const l=document.createElement("link").relList;if(l&&l.supports&&l.supports("modulepreload"))return;for(const i of document.querySelectorAll('link[rel="modulepreload"]'))p(i);new MutationObserver(i=>{for(const o of i)if(o.type==="childList")for(const d of o.addedNodes)d.tagName==="LINK"&&d.rel==="modulepreload"&&p(d)}).observe(document,{childList:!0,subtree:!0});function c(i){const o={};return i.integrity&&(o.integrity=i.integrity),i.referrerpolicy&&(o.referrerPolicy=i.referrerpolicy),i.crossorigin==="use-credentials"?o.credentials="include":i.crossorigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function p(i){if(i.ep)return;i.ep=!0;const o=c(i);fetch(i.href,o)}};w();const T=n.div`
     background-color: var(--tertiary);  
     grid-area: SL;
 
@@ -14,7 +14,7 @@ import{s as n,j as p,A as u,r as x,W as f,R as b,a as m}from"./vendor.2bee8200.j
     ::-webkit-scrollbar{
         display: none;
     }
-`,w=n.div`
+`,k=n.div`
 
     width: 32px;
     border-radius: 1px;
@@ -24,7 +24,7 @@ import{s as n,j as p,A as u,r as x,W as f,R as b,a as m}from"./vendor.2bee8200.j
     border-bottom: 2px solid var(--quaternary);
     margin-bottom: 8px;
 
-`,e=p.exports.jsx,l=p.exports.jsxs,T=p.exports.Fragment,k=()=>l(y,{children:[e(r,{}),e(w,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{})]}),C=n.button`
+`,e=h.exports.jsx,a=h.exports.jsxs,C=h.exports.Fragment,L=()=>a(T,{children:[e(r,{}),e(k,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{})]}),I=n.button`
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -37,7 +37,7 @@ import{s as n,j as p,A as u,r as x,W as f,R as b,a as m}from"./vendor.2bee8200.j
     flex-shrink: 0;
     background-color: var(--symbol);
 
-`,r=()=>e(C,{}),L=n.div`
+`,r=()=>e(I,{}),S=n.div`
     grid-area: SN;
     background-color: #2F3136;
     color: var(--white);
@@ -67,16 +67,20 @@ import{s as n,j as p,A as u,r as x,W as f,R as b,a as m}from"./vendor.2bee8200.j
     
 
 
-`,S=()=>e(L,{children:e(F,{children:"Servidor"})}),I=n.div`
+`,j=()=>e(S,{children:e(F,{children:"Servidor"})}),M=n.div`
 
     grid-area: CI;
     background-color: #36393F;        
     overflow: hidden;
     text-overflow: ellipsis;  
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
     transform: translateY(0px);
-`,j=n.div`
+    font-weight: bolder;
+`,U=n.div`
 
     color: var(--white);
     font-size: 100%;
@@ -90,7 +94,25 @@ import{s as n,j as p,A as u,r as x,W as f,R as b,a as m}from"./vendor.2bee8200.j
     padding-right: 10px;
     white-space: nowrap;
     
-`,M=()=>e(I,{children:e(j,{children:"# \u{1F920} bate-papo"})}),B=n.div`
+`,B=n(u)`
+    width: 24px;
+    height: 24px;
+    color: var(--white);
+`,z=n.div`
+    @media screen and (min-width: 600px){
+        display: none;
+    }
+    width: 30px;
+    height: 25px;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`,N=n(f)`
+    width: 24px;
+    height: 24px;
+    color: var(--white);
+`,$=()=>a(M,{children:[e(z,{children:e(N,{})}),e(B,{}),e(U,{children:"\u{1F920} bate-papo"})]}),H=n.div`
 
     grid-area: CL;
     
@@ -127,7 +149,7 @@ import{s as n,j as p,A as u,r as x,W as f,R as b,a as m}from"./vendor.2bee8200.j
         color: #FFFFFF;
     }
 
-`,z=()=>l(B,{children:[e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"})]}),N=n.div`
+`,q=()=>a(H,{children:[e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"}),e(t,{children:"Teste"})]}),A=n.div`
 
     grid-area: UL;
     background-color: #2F3136;    
@@ -158,7 +180,7 @@ import{s as n,j as p,A as u,r as x,W as f,R as b,a as m}from"./vendor.2bee8200.j
         border-radius: 10px;
     }
 
-`,U=()=>e(N,{}),$=n.div`
+`,E=()=>e(A,{}),O=n.div`
 
     grid-area: CH;
 
@@ -169,7 +191,7 @@ import{s as n,j as p,A as u,r as x,W as f,R as b,a as m}from"./vendor.2bee8200.j
     justify-content:space-between;
 
 
-`,A=n.div`
+`,R=n.div`
     padding: 20px 0;
     display: flex;
     flex-direction: column;
@@ -185,10 +207,10 @@ import{s as n,j as p,A as u,r as x,W as f,R as b,a as m}from"./vendor.2bee8200.j
     ::-webkit-scrollbar-track {
         background-color: var(--secondary);
     }
-`,E=n.div`
+`,W=n.div`
     width: 100%;
     padding: 0 16px;
-`,O=n.input`
+`,P=n.input`
     width: 100%;
     height: 44px;
     padding: 0 10px 0 57px;
@@ -206,20 +228,21 @@ import{s as n,j as p,A as u,r as x,W as f,R as b,a as m}from"./vendor.2bee8200.j
         transition: 180ms ease-in-out;
     }
   
-`,R=n(u)`
+`,D=n(m)`
     width: 24px;
     height: 24px;
     color: var(--gray);
-`,q=()=>{const[s,c]=x.exports.useState(""),[d,h]=x.exports.useState([]),o=a=>{c(a.target.value)},i=a=>{a.code==="Enter"&&s&&(h([...d,{author:"Fulano",date:"08/02/2022",content:s,hasMention:!1,isBot:!1}]),c(""))};return l($,{children:[e(A,{children:d.map((a,g)=>e(Q,{author:"Meguinha",date:"21/06/2020",content:a.content},g))}),l(E,{children:[e(O,{value:s,onChange:o,onKeyPress:i,type:"text",placeholder:"Conversando no chat"}),e(R,{})]})]})},H=n.div`
+`,G=()=>{const[s,l]=x.exports.useState(""),[c,p]=x.exports.useState([]),i=d=>{l(d.target.value)},o=d=>{d.code==="Enter"&&s&&(p([...c,{author:"Fulano",date:"08/02/2022",content:s,hasMention:!1,isBot:!1}]),l(""))};return a(O,{children:[e(R,{children:c.map((d,g)=>e(ee,{author:"Meguinha",date:"21/06/2020",content:d.content},g))}),a(W,{children:[e(P,{value:s,onChange:i,onKeyPress:o,type:"text",placeholder:"Conversando no chat"}),e(D,{})]})]})},K=n.div`
+    @media screen and (max-width: 600px){
+        display: none;
+    }
     background-color: #292B2F;  
     grid-area: UI;
     display: flex;
-    
-    flex-direction: row;
-    
+    flex-direction: row;    
     align-items: center;
 
-`,P=n.div`
+`,Y=n.div`
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -235,17 +258,22 @@ import{s as n,j as p,A as u,r as x,W as f,R as b,a as m}from"./vendor.2bee8200.j
 
 `;n.div`
 
-`;const W=()=>e(H,{children:e(P,{})}),D=n.div`
+`;const J=()=>e(K,{children:e(Y,{})}),Q=n.div`
     display: flex;
     align-items: center;
     padding: 4px 16px;
     margin-right: 4px;
-    background-color: transparent;
+   
     
     & + div {
         margin-top: 13px;
     }
-`,G=n.div`
+
+    &:hover {
+
+        background-color: var(--quinary);
+    }
+`,V=n.div`
 
     width: 40px;
     height: 40px;
@@ -253,13 +281,13 @@ import{s as n,j as p,A as u,r as x,W as f,R as b,a as m}from"./vendor.2bee8200.j
     background: #343639;
     border-radius:50%;
 
-`,K=n.div`
+`,X=n.div`
     min-height: 40px;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
     margin-left: 17px;
-`,Y=n.div`
+`,Z=n.div`
     display: flex;
     align-items: center;
     > strong {
@@ -277,26 +305,40 @@ import{s as n,j as p,A as u,r as x,W as f,R as b,a as m}from"./vendor.2bee8200.j
         color: var(--gray);
         font-size: 10px
     }
-`,J=n.div`
+`,_=n.div`
     text-align: left;
     font-size: 14px;
     color: var(--white);
 
-`,Q=s=>l(D,{children:[e(G,{}),l(K,{children:[l(Y,{children:[e("strong",{children:s.author}),s.isBot&&e("span",{children:"Bot"}),e("time",{children:s.date})]}),e(J,{children:s.content})]})]}),V=n.div`
+`,ee=s=>a(Q,{children:[e(V,{}),a(X,{children:[a(Z,{children:[e("strong",{children:s.author}),s.isBot&&e("span",{children:"Bot"}),e("time",{children:s.date})]}),e(_,{children:s.content})]})]}),te=n.div`
     display: grid;
 
-    grid-template-columns: 71px 240px auto 240px ;
-    grid-template-rows: 46px auto 52px;
+    @media screen and (min-width: 601px){
+        grid-template-columns: 71px 240px auto 240px ;
+        grid-template-rows: 46px auto 52px;
+        grid-template-areas:
+            'SL SN CI CI' 
+            'SL CL CH UL'
+            'SL UI CH UL'
+        ;
 
-    grid-template-areas:
-        'SL SN CI CI' 
-        'SL CL CH UL'
-        'SL UI CH UL'
-    ;
+    }    
+
+    @media screen and (max-width: 600px){
+        grid-template-columns: 0px 0px auto 0px ;
+        grid-template-rows: 46px auto 52px;
+        grid-template-areas:
+            'SL SN CI CI' 
+            'SL CL CH UL'
+            'SL UI CH UL'
+        ;
+    }
+
+
 
     height: 100vh;
 
-`,X=()=>l(V,{children:[e(k,{}),e(S,{}),e(M,{}),e(z,{}),e(U,{}),e(q,{}),e(W,{})]}),Z=f`
+`,re=()=>a(te,{children:[e(L,{}),e(j,{}),e($,{}),e(q,{}),e(E,{}),e(G,{}),e(J,{})]}),ne=b`
     *{
         margin: 0;
         box-sizing: border-box;
@@ -334,4 +376,4 @@ import{s as n,j as p,A as u,r as x,W as f,R as b,a as m}from"./vendor.2bee8200.j
     }
 
     
-`,_=()=>l(T,{children:[e(X,{}),e(Z,{})]});b.render(e(m.StrictMode,{children:e(_,{})}),document.getElementById("root"));
+`,ie=()=>a(C,{children:[e(re,{}),e(ne,{})]});v.render(e(y.StrictMode,{children:e(ie,{})}),document.getElementById("root"));
