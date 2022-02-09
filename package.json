@@ -1,7 +1,7 @@
 {
-  "homepage": "https://matheus55391.github.io/Discord-Clone",
+  "homepage": "https://matheus55391.github.io/Discord-Clone/",
   "name": "discord-clone",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
