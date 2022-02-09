@@ -1,9 +1,13 @@
-import { ChannelName, Container } from "./styles"
+import { ChannelName, Container, MenuIcon, MenuWrapper, TagIcon } from "./styles"
 
 export const ChannelInfo = () =>{
     return(
         <Container>
-            <ChannelName># 🤠 bate-papo</ChannelName>
+            <MenuWrapper>
+                <MenuIcon/>
+            </MenuWrapper>
+            <TagIcon/>
+            <ChannelName>🤠 bate-papo</ChannelName>
         </Container>
     )
 }

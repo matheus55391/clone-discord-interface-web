@@ -5,10 +5,15 @@ export const Container = styled.div`
     align-items: center;
     padding: 4px 16px;
     margin-right: 4px;
-    background-color: transparent;
+   
     
     & + div {
         margin-top: 13px;
+    }
+
+    &:hover {
+
+        background-color: var(--quinary);
     }
 `
 export const Avatar = styled.div`
