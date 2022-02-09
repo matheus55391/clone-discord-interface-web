@@ -1,6 +1,6 @@
 import { Container, Avatar, Message, Header, Content } from './styles'
 
-type Props =  {
+export interface IChannelMessage {
     author: string;
     date?: string;
     content: string;
@@ -8,7 +8,7 @@ type Props =  {
     isBot?: boolean;
 }
 
-export const ChannelMessage = (props: Props) => {
+export const ChannelMessage = (props: IChannelMessage) => {
     return(
         <Container>
             <Avatar/>
