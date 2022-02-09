@@ -1,5 +1,3 @@
-Link: https://matheus55391.github.io/Discord-Clone/
-
 ### `npm run dev`
 ### `npm run build`
 ### `npm run preview`
