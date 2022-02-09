@@ -13,7 +13,7 @@ export const Container = styled.div`
 
     &:hover {
 
-        background-color: var(--quinary);
+        background-color: #303236;
     }
 `
 export const Avatar = styled.div`

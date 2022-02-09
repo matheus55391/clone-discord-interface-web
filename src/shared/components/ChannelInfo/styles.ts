@@ -29,28 +29,30 @@ export const ChannelName = styled.div`
     padding-left: 10px;
     padding-right: 10px;
     white-space: nowrap;
+    padding: 0px 0px 0px 0px;
     
 `
 export const TagIcon = styled(Tag)`
-    width: 24px;
-    height: 24px;
-    color: var(--white);
+    width: 28px;
+    height: 28px;
+    color: var(--gray);
 `
 
 export const MenuWrapper = styled.div`
     @media screen and (min-width: 600px){
         display: none;
     }
-    width: 30px;
-    height: 25px;
-    padding: 5px 5px;
+    width: 40px;
+    
+    padding: 1px;
+    margin: 0px 10px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
 `
 
 export const MenuIcon = styled(Menu)`
-    width: 24px;
-    height: 24px;
-    color: var(--white);
+    width: 30px;
+    height: 30px;
+    color: var(--gray);
 `
