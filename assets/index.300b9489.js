@@ -1,4 +1,4 @@
-import{s as r,j as p,T as g,M as u,A as f,r as x,S as m,W as b,R as y,a as v}from"./vendor.b6e7a19e.js";const w=function(){const d=document.createElement("link").relList;if(d&&d.supports&&d.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))c(n);new MutationObserver(n=>{for(const o of n)if(o.type==="childList")for(const a of o.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&c(a)}).observe(document,{childList:!0,subtree:!0});function l(n){const o={};return n.integrity&&(o.integrity=n.integrity),n.referrerpolicy&&(o.referrerPolicy=n.referrerpolicy),n.crossorigin==="use-credentials"?o.credentials="include":n.crossorigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function c(n){if(n.ep)return;n.ep=!0;const o=l(n);fetch(n.href,o)}};w();const C=r.div`
+import{s as r,j as p,T as h,M as u,S as f,A as m,r as x,W as b,R as y,a as v}from"./vendor.b6e7a19e.js";const w=function(){const d=document.createElement("link").relList;if(d&&d.supports&&d.supports("modulepreload"))return;for(const o of document.querySelectorAll('link[rel="modulepreload"]'))c(o);new MutationObserver(o=>{for(const n of o)if(n.type==="childList")for(const a of n.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&c(a)}).observe(document,{childList:!0,subtree:!0});function l(o){const n={};return o.integrity&&(n.integrity=o.integrity),o.referrerpolicy&&(n.referrerPolicy=o.referrerpolicy),o.crossorigin==="use-credentials"?n.credentials="include":o.crossorigin==="anonymous"?n.credentials="omit":n.credentials="same-origin",n}function c(o){if(o.ep)return;o.ep=!0;const n=l(o);fetch(o.href,n)}};w();const k=r.div`
     background-color: var(--tertiary);  
     grid-area: SL;
 
@@ -14,7 +14,7 @@ import{s as r,j as p,T as g,M as u,A as f,r as x,S as m,W as b,R as y,a as v}fro
     ::-webkit-scrollbar{
         display: none;
     }
-`,k=r.div`
+`,C=r.div`
 
     width: 32px;
     border-radius: 1px;
@@ -24,7 +24,7 @@ import{s as r,j as p,T as g,M as u,A as f,r as x,S as m,W as b,R as y,a as v}fro
     border-bottom: 2px solid var(--quaternary);
     margin-bottom: 8px;
 
-`,e=p.exports.jsx,s=p.exports.jsxs,L=p.exports.Fragment,S=()=>s(C,{children:[e(t,{}),e(k,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{})]}),I=r.button`
+`,e=p.exports.jsx,s=p.exports.jsxs,L=p.exports.Fragment,S=()=>s(k,{children:[e(t,{}),e(C,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{})]}),I=r.button`
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -95,7 +95,7 @@ import{s as r,j as p,T as g,M as u,A as f,r as x,S as m,W as b,R as y,a as v}fro
     white-space: nowrap;
     padding: 0px 0px 0px 0px;
     
-`,z=r(g)`
+`,z=r(h)`
     width: 28px;
     height: 28px;
     color: var(--gray);
@@ -193,13 +193,22 @@ import{s as r,j as p,T as g,M as u,A as f,r as x,S as m,W as b,R as y,a as v}fro
     justify-content:space-between;
 
 
-`,W=r.div`
+`,W=r(f)`
     padding: 20px 0;
     display: flex;
     flex-direction: column;
     max-height: calc(100vh - 46px - 68px);
     overflow-y: scroll;
-
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--tertiary);
+        border-radius: 4px;
+    }
+    ::-webkit-scrollbar-track {
+        background-color: var(--secondary);
+    }
 `,P=r.div`
     width: 100%;
     padding: 0 16px;
@@ -221,11 +230,11 @@ import{s as r,j as p,T as g,M as u,A as f,r as x,S as m,W as b,R as y,a as v}fro
         transition: 180ms ease-in-out;
     }
   
-`,G=r(f)`
+`,G=r(m)`
     width: 24px;
     height: 24px;
     color: var(--gray);
-`,K=()=>{const[i,d]=x.exports.useState(""),[l,c]=x.exports.useState([]),n=a=>{d(a.target.value)},o=a=>{a.code==="Enter"&&i&&(c([...l,{author:"Fulano",date:"08/02/2022",content:i,hasMention:!1,isBot:!1}]),d(""))};return s(q,{children:[e(W,{children:e(m,{children:l.map((a,h)=>e(te,{author:"Meguinha",date:"21/06/2020",content:a.content},h))})}),s(P,{children:[e(D,{value:i,onChange:n,onKeyPress:o,type:"text",placeholder:"Conversando no chat"}),e(G,{})]})]})},Y=r.div`
+`,K=()=>{const[i,d]=x.exports.useState(""),[l,c]=x.exports.useState([]),o=a=>{d(a.target.value)},n=a=>{a.code==="Enter"&&i&&(c([...l,{author:"Fulano",date:"08/02/2022",content:i,hasMention:!1,isBot:!1}]),d(""))};return s(q,{children:[e(W,{children:l.map((a,g)=>e(te,{author:"Meguinha",date:"21/06/2020",content:a.content},g))}),s(P,{children:[e(D,{value:i,onChange:o,onKeyPress:n,type:"text",placeholder:"Conversando no chat"}),e(G,{})]})]})},Y=r.div`
     @media screen and (max-width: 600px){
         display: none;
     }
@@ -331,7 +340,7 @@ import{s as r,j as p,T as g,M as u,A as f,r as x,S as m,W as b,R as y,a as v}fro
 
     height: 100vh;
 
-`,ne=()=>s(re,{children:[e(S,{}),e(M,{}),e(H,{}),e(O,{}),e(T,{}),e(K,{}),e(Q,{})]}),oe=b`
+`,oe=()=>s(re,{children:[e(S,{}),e(M,{}),e(H,{}),e(O,{}),e(T,{}),e(K,{}),e(Q,{})]}),ne=b`
     *{
         margin: 0;
         box-sizing: border-box;
@@ -369,4 +378,4 @@ import{s as r,j as p,T as g,M as u,A as f,r as x,S as m,W as b,R as y,a as v}fro
     }
 
     
-`,ie=()=>s(L,{children:[e(ne,{}),e(oe,{})]});y.render(e(v.StrictMode,{children:e(ie,{})}),document.getElementById("root"));
+`,ie=()=>s(L,{children:[e(oe,{}),e(ne,{})]});y.render(e(v.StrictMode,{children:e(ie,{})}),document.getElementById("root"));
