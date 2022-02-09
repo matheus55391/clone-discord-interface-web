@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { ChannelMessage, IChannelMessage } from ".."
 import { Container, Messages, InputWrapper, Input, InputIcon } from "./styles"
-
+import ReactScrollableFeed from 'react-scrollable-feed'
 
 
 export const ChannelChat = () =>{
@@ -29,13 +29,16 @@ export const ChannelChat = () =>{
     return(
         <Container>
             <Messages>
-                {
-                    messageList.map((v, i)=>{
-                        return(
-                            <ChannelMessage author="Meguinha" date="21/06/2020" content={v.content} key={i}/>
-                        )
-                    })
-                }
+                <ReactScrollableFeed>
+                    {
+                        messageList.map((v, i)=>{
+                            return(
+                                <ChannelMessage author="Meguinha" date="21/06/2020" content={v.content} key={i}/>
+                            )
+                        })
+                    }
+                </ReactScrollableFeed>
+
             </Messages>
             <InputWrapper>
                 
