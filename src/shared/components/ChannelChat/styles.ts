@@ -40,7 +40,8 @@ export const InputWrapper = styled.div`
     }
     @media screen and (max-width: 600px){
         padding: 5px 8px;    
-        align-self:flex-end;
+        flex-grow: 1;
+        max-height: 80px;
 
     }
 `
