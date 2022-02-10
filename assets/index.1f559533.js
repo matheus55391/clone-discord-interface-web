@@ -1,4 +1,4 @@
-import{s as r,j as p,T as h,M as u,S as f,A as m,r as x,W as b,R as y,a as v}from"./vendor.b6e7a19e.js";const w=function(){const d=document.createElement("link").relList;if(d&&d.supports&&d.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))c(n);new MutationObserver(n=>{for(const o of n)if(o.type==="childList")for(const a of o.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&c(a)}).observe(document,{childList:!0,subtree:!0});function l(n){const o={};return n.integrity&&(o.integrity=n.integrity),n.referrerpolicy&&(o.referrerPolicy=n.referrerpolicy),n.crossorigin==="use-credentials"?o.credentials="include":n.crossorigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function c(n){if(n.ep)return;n.ep=!0;const o=l(n);fetch(n.href,o)}};w();const k=r.div`
+import{s as r,j as p,T as g,M as u,S as f,A as m,r as x,W as b,R as y,a as v}from"./vendor.b6e7a19e.js";const w=function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))c(n);new MutationObserver(n=>{for(const o of n)if(o.type==="childList")for(const a of o.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&c(a)}).observe(document,{childList:!0,subtree:!0});function l(n){const o={};return n.integrity&&(o.integrity=n.integrity),n.referrerpolicy&&(o.referrerPolicy=n.referrerpolicy),n.crossorigin==="use-credentials"?o.credentials="include":n.crossorigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function c(n){if(n.ep)return;n.ep=!0;const o=l(n);fetch(n.href,o)}};w();const k=r.div`
     background-color: var(--tertiary);  
     grid-area: SL;
 
@@ -24,7 +24,7 @@ import{s as r,j as p,T as h,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     border-bottom: 2px solid var(--quaternary);
     margin-bottom: 8px;
 
-`,e=p.exports.jsx,s=p.exports.jsxs,L=p.exports.Fragment,S=()=>s(k,{children:[e(t,{}),e(C,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{})]}),I=r.button`
+`,e=p.exports.jsx,d=p.exports.jsxs,L=p.exports.Fragment,F=()=>d(k,{children:[e(t,{}),e(C,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{})]}),S=r.button`
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -37,7 +37,7 @@ import{s as r,j as p,T as h,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     flex-shrink: 0;
     background-color: var(--symbol);
 
-`,t=()=>e(I,{}),F=r.div`
+`,t=()=>e(S,{}),I=r.div`
     grid-area: SN;
     background-color: #2F3136;
     color: var(--white);
@@ -67,7 +67,7 @@ import{s as r,j as p,T as h,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     
 
 
-`,M=()=>e(F,{children:e(j,{children:"Servidor"})}),U=r.div`
+`,M=()=>e(I,{children:e(j,{children:"Servidor"})}),B=r.div`
 
     grid-area: CI;
     background-color: #36393F;        
@@ -80,7 +80,7 @@ import{s as r,j as p,T as h,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
     transform: translateY(0px);
     font-weight: bolder;
-`,B=r.div`
+`,z=r.div`
 
     color: var(--white);
     font-size: 100%;
@@ -95,7 +95,7 @@ import{s as r,j as p,T as h,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     white-space: nowrap;
     padding: 0px 0px 0px 0px;
     
-`,z=r(h)`
+`,U=r(g)`
     width: 28px;
     height: 28px;
     color: var(--gray);
@@ -114,7 +114,7 @@ import{s as r,j as p,T as h,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     width: 30px;
     height: 30px;
     color: var(--gray);
-`,H=()=>s(U,{children:[e(N,{children:e($,{})}),e(z,{}),e(B,{children:"\u{1F920} bate-papo"})]}),A=r.div`
+`,A=()=>d(B,{children:[e(N,{children:e($,{})}),e(U,{}),e(z,{children:"\u{1F920} bate-papo"})]}),E=r.div`
 
     grid-area: CL;
     
@@ -133,7 +133,7 @@ import{s as r,j as p,T as h,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
         background-color: #282a2d;
         border-radius: 15px;
     }
-`,E=r.button`
+`,O=r.button`
  
 
     text-align: left;
@@ -151,7 +151,7 @@ import{s as r,j as p,T as h,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
         color: #FFFFFF;
     }
 
-`,O=()=>e(A,{children:e(E,{children:"Chat"})}),R=r.div`
+`,R=()=>e(E,{children:e(O,{children:"Chat"})}),T=r.div`
 
     grid-area: UL;
     background-color: #2F3136;    
@@ -182,7 +182,7 @@ import{s as r,j as p,T as h,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
         border-radius: 10px;
     }
 
-`,T=()=>e(R,{}),q=r.div`
+`,q=()=>e(T,{}),H=r.div`
 
     grid-area: CH;
 
@@ -211,7 +211,13 @@ import{s as r,j as p,T as h,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     }
 `,D=r.div`
     width: 100%;
-    padding: 0 16px;
+    padding: 0px 16px;
+    @media screen and (min-width: 601px){
+        padding: 5px 16px;
+    }
+    @media screen and (max-width: 600px){
+        padding: 15px 5px;
+    }
 `,G=r.input`
     width: 100%;
     height: 44px;
@@ -234,7 +240,7 @@ import{s as r,j as p,T as h,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     width: 24px;
     height: 24px;
     color: var(--gray);
-`,P=()=>{const[i,d]=x.exports.useState(""),[l,c]=x.exports.useState([]),n=a=>{d(a.target.value)},o=a=>{a.key==="Enter"&&i&&(c([...l,{author:"Fulano",date:"08/02/2022",content:i,hasMention:!1,isBot:!1}]),d(""))};return s(q,{children:[e(W,{children:l.map((a,g)=>e(te,{author:"Meguinha",date:"21/06/2020",content:a.content},g))}),s(D,{children:[e(G,{value:i,onChange:n,onKeyUp:o,type:"text",placeholder:"Conversando no chat"}),e(K,{})]})]})},Y=r.div`
+`,P=()=>{const[i,s]=x.exports.useState(""),[l,c]=x.exports.useState([]),n=a=>{s(a.target.value)},o=a=>{a.key==="Enter"&&i&&(c([...l,{author:"Fulano",date:"08/02/2022",content:i,hasMention:!1,isBot:!1}]),s(""))};return d(H,{children:[e(W,{children:l.map((a,h)=>e(te,{author:"Meguinha",date:"21/06/2020",content:a.content},h))}),d(D,{children:[e(G,{value:i,onChange:n,onKeyUp:o,type:"text",placeholder:"Conversando no chat"}),e(K,{})]})]})},Y=r.div`
     @media screen and (max-width: 600px){
         display: none;
     }
@@ -312,35 +318,30 @@ import{s as r,j as p,T as h,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     font-size: 14px;
     color: var(--white);
 
-`,te=i=>s(V,{children:[e(X,{}),s(Z,{children:[s(_,{children:[e("strong",{children:i.author}),i.isBot&&e("span",{children:"Bot"}),e("time",{children:i.date})]}),e(ee,{children:i.content})]})]}),re=r.div`
+`,te=i=>d(V,{children:[e(X,{}),d(Z,{children:[d(_,{children:[e("strong",{children:i.author}),i.isBot&&e("span",{children:"Bot"}),e("time",{children:i.date})]}),e(ee,{children:i.content})]})]}),re=r.div`
     display: grid;
 
     @media screen and (min-width: 601px){
         grid-template-columns: 71px 240px auto 240px ;
         grid-template-rows: 46px auto 52px;
-        grid-template-areas:
-            'SL SN CI CI' 
-            'SL CL CH UL'
-            'SL UI CH UL'
-        ;
 
     }    
 
     @media screen and (max-width: 600px){
         grid-template-columns: 0px 0px auto 0px ;
         grid-template-rows: 46px auto 52px;
-        grid-template-areas:
-            'SL SN CI CI' 
-            'SL CL CH UL'
-            'SL UI CH UL'
-        ;
+
     }
 
 
-
+    grid-template-areas:
+            'SL SN CI CI' 
+            'SL CL CH UL'
+            'SL UI CH UL'
+    ;
     height: 100vh;
 
-`,ne=()=>s(re,{children:[e(S,{}),e(M,{}),e(H,{}),e(O,{}),e(T,{}),e(P,{}),e(Q,{})]}),oe=b`
+`,ne=()=>d(re,{children:[e(F,{}),e(M,{}),e(A,{}),e(R,{}),e(q,{}),e(P,{}),e(Q,{})]}),oe=b`
     *{
         margin: 0;
         box-sizing: border-box;
@@ -378,4 +379,4 @@ import{s as r,j as p,T as h,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     }
 
     
-`,ie=()=>s(L,{children:[e(ne,{}),e(oe,{})]});y.render(e(v.StrictMode,{children:e(ie,{})}),document.getElementById("root"));
+`,ie=()=>d(L,{children:[e(ne,{}),e(oe,{})]});y.render(e(v.StrictMode,{children:e(ie,{})}),document.getElementById("root"));
