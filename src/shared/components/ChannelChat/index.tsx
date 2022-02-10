@@ -11,8 +11,9 @@ export const ChannelChat = () =>{
         setMessageContent(e.target.value)        
     }
     
-    const eventInputEnter = (key: React.KeyboardEvent<HTMLInputElement>) =>{
-        if(key.code === "Enter" && messageContent) {  
+    const eventInputEnter = (event: React.KeyboardEvent<HTMLInputElement>) =>{
+
+        if(event.key === "Enter" && messageContent) {  
             setMessageList([...messageList, {
                 author: "Fulano",
                 date: "08/02/2022",
@@ -38,7 +39,7 @@ export const ChannelChat = () =>{
             </Messages>
             <InputWrapper>
                 
-                <Input value={messageContent} onChange={handleMessageText} onKeyPress={eventInputEnter} type="text"  placeholder="Conversando no chat"/>
+                <Input value={messageContent} onChange={handleMessageText} onKeyUp={eventInputEnter} type="text"  placeholder="Conversando no chat"/>
                 <InputIcon/>
             </InputWrapper>
         </Container>
