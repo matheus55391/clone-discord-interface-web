@@ -34,12 +34,14 @@ export const Messages = styled(ReactScrollableFeed)`
 `
 export const InputWrapper = styled.div`
     width: 100%;
-    padding: 0px 16px;
+    
     @media screen and (min-width: 601px){
-        padding: 5px 16px;
+        padding: 0px 16px;
     }
     @media screen and (max-width: 600px){
-        padding: 15px 5px;
+        padding: 5px 8px;    
+        align-self:flex-end;
+
     }
 `
 export const Input = styled.input`
