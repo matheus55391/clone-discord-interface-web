@@ -1,4 +1,4 @@
-import{s as r,j as p,T as g,M as u,S as f,A as m,r as x,W as b,R as y,a as v}from"./vendor.b6e7a19e.js";const w=function(){const d=document.createElement("link").relList;if(d&&d.supports&&d.supports("modulepreload"))return;for(const o of document.querySelectorAll('link[rel="modulepreload"]'))c(o);new MutationObserver(o=>{for(const n of o)if(n.type==="childList")for(const i of n.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&c(i)}).observe(document,{childList:!0,subtree:!0});function l(o){const n={};return o.integrity&&(n.integrity=o.integrity),o.referrerpolicy&&(n.referrerPolicy=o.referrerpolicy),o.crossorigin==="use-credentials"?n.credentials="include":o.crossorigin==="anonymous"?n.credentials="omit":n.credentials="same-origin",n}function c(o){if(o.ep)return;o.ep=!0;const n=l(o);fetch(o.href,n)}};w();const k=r.div`
+import{s as r,j as p,T as h,M as u,S as f,A as m,r as x,W as b,R as y,a as v}from"./vendor.b6e7a19e.js";const w=function(){const d=document.createElement("link").relList;if(d&&d.supports&&d.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))c(n);new MutationObserver(n=>{for(const o of n)if(o.type==="childList")for(const a of o.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&c(a)}).observe(document,{childList:!0,subtree:!0});function l(n){const o={};return n.integrity&&(o.integrity=n.integrity),n.referrerpolicy&&(o.referrerPolicy=n.referrerpolicy),n.crossorigin==="use-credentials"?o.credentials="include":n.crossorigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function c(n){if(n.ep)return;n.ep=!0;const o=l(n);fetch(n.href,o)}};w();const k=r.div`
     background-color: var(--tertiary);  
     grid-area: SL;
 
@@ -24,7 +24,7 @@ import{s as r,j as p,T as g,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     border-bottom: 2px solid var(--quaternary);
     margin-bottom: 8px;
 
-`,e=p.exports.jsx,s=p.exports.jsxs,L=p.exports.Fragment,S=()=>s(k,{children:[e(t,{}),e(C,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{})]}),F=r.button`
+`,e=p.exports.jsx,s=p.exports.jsxs,L=p.exports.Fragment,S=()=>s(k,{children:[e(t,{}),e(C,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{}),e(t,{})]}),I=r.button`
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -37,7 +37,7 @@ import{s as r,j as p,T as g,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     flex-shrink: 0;
     background-color: var(--symbol);
 
-`,t=()=>e(F,{}),I=r.div`
+`,t=()=>e(I,{}),F=r.div`
     grid-area: SN;
     background-color: #2F3136;
     color: var(--white);
@@ -52,7 +52,7 @@ import{s as r,j as p,T as g,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     text-overflow: ellipsis;
     white-space: nowrap;
 
-`,M=r.span`
+`,j=r.span`
 
     color: var(--white);
     font-size: 100%;
@@ -67,7 +67,7 @@ import{s as r,j as p,T as g,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     
 
 
-`,j=()=>e(I,{children:e(M,{children:"Servidor"})}),U=r.div`
+`,M=()=>e(F,{children:e(j,{children:"Servidor"})}),U=r.div`
 
     grid-area: CI;
     background-color: #36393F;        
@@ -95,7 +95,7 @@ import{s as r,j as p,T as g,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     white-space: nowrap;
     padding: 0px 0px 0px 0px;
     
-`,z=r(g)`
+`,z=r(h)`
     width: 28px;
     height: 28px;
     color: var(--gray);
@@ -234,7 +234,7 @@ import{s as r,j as p,T as g,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     width: 24px;
     height: 24px;
     color: var(--gray);
-`,P=()=>{const[a,d]=x.exports.useState(""),[l,c]=x.exports.useState([]),o=i=>{d(i.target.value)},n=i=>{console.log(i.key),c([...l,{author:"Fulano",date:"08/02/2022",content:i.key,hasMention:!1,isBot:!1}]),d(""),i.key==="Enter"&&a&&(c([...l,{author:"Fulano",date:"08/02/2022",content:a,hasMention:!1,isBot:!1}]),d(""))};return s(q,{children:[e(W,{children:l.map((i,h)=>e(te,{author:"Meguinha",date:"21/06/2020",content:i.content},h))}),s(D,{children:[e(G,{value:a,onChange:o,onKeyUp:n,type:"text",placeholder:"Conversando no chat"}),e(K,{})]})]})},Y=r.div`
+`,P=()=>{const[i,d]=x.exports.useState(""),[l,c]=x.exports.useState([]),n=a=>{d(a.target.value)},o=a=>{a.key==="Enter"&&i&&(c([...l,{author:"Fulano",date:"08/02/2022",content:i,hasMention:!1,isBot:!1}]),d(""))};return s(q,{children:[e(W,{children:l.map((a,g)=>e(te,{author:"Meguinha",date:"21/06/2020",content:a.content},g))}),s(D,{children:[e(G,{value:i,onChange:n,onKeyUp:o,type:"text",placeholder:"Conversando no chat"}),e(K,{})]})]})},Y=r.div`
     @media screen and (max-width: 600px){
         display: none;
     }
@@ -312,7 +312,7 @@ import{s as r,j as p,T as g,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     font-size: 14px;
     color: var(--white);
 
-`,te=a=>s(V,{children:[e(X,{}),s(Z,{children:[s(_,{children:[e("strong",{children:a.author}),a.isBot&&e("span",{children:"Bot"}),e("time",{children:a.date})]}),e(ee,{children:a.content})]})]}),re=r.div`
+`,te=i=>s(V,{children:[e(X,{}),s(Z,{children:[s(_,{children:[e("strong",{children:i.author}),i.isBot&&e("span",{children:"Bot"}),e("time",{children:i.date})]}),e(ee,{children:i.content})]})]}),re=r.div`
     display: grid;
 
     @media screen and (min-width: 601px){
@@ -340,7 +340,7 @@ import{s as r,j as p,T as g,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
 
     height: 100vh;
 
-`,oe=()=>s(re,{children:[e(S,{}),e(j,{}),e(H,{}),e(O,{}),e(T,{}),e(P,{}),e(Q,{})]}),ne=b`
+`,ne=()=>s(re,{children:[e(S,{}),e(M,{}),e(H,{}),e(O,{}),e(T,{}),e(P,{}),e(Q,{})]}),oe=b`
     *{
         margin: 0;
         box-sizing: border-box;
@@ -378,4 +378,4 @@ import{s as r,j as p,T as g,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     }
 
     
-`,ie=()=>s(L,{children:[e(oe,{}),e(ne,{})]});y.render(e(v.StrictMode,{children:e(ie,{})}),document.getElementById("root"));
+`,ie=()=>s(L,{children:[e(ne,{}),e(oe,{})]});y.render(e(v.StrictMode,{children:e(ie,{})}),document.getElementById("root"));
