@@ -217,7 +217,8 @@ import{s as r,j as p,T as g,M as u,S as f,A as m,r as x,W as b,R as y,a as v}fro
     }
     @media screen and (max-width: 600px){
         padding: 5px 8px;    
-        align-self:flex-end;
+        flex-grow: 1;
+        max-height: 80px;
 
     }
 `,G=r.input`
