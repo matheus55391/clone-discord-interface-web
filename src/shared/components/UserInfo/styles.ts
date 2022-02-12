@@ -17,19 +17,21 @@ export const ImgBox = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;    
-    width: 34px;
-    height: 34px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     margin: 0px 8px 0px 8px;
     padding: 5px;
     cursor: pointer;
     flex-shrink: 0;
     background-color: var(--symbol);
+    overflow:hidden;
 `
 
-export const Img = styled.img`
-
+export const UserPicture = styled.img`
+    width: 140%;
+    height: 140%;
 `
 export const UserInfoBox = styled.div`
-
+    color: var(--white);
 `
