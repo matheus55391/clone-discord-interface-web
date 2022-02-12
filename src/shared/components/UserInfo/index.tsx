@@ -1,15 +1,16 @@
 
+import { useUser } from "../../hooks/useUser"
 import { Container, ImgBox, UserInfoBox, UserPicture } from "./styles"
 export const UserInfo = () =>{
-
+    const {name, img} = useUser()
     return(
         <Container>
         
             <ImgBox>
-                <UserPicture src="https://grupowhats.xyz/wp-content/uploads/2019/10/grupos-whats.jpg"/>
+                <UserPicture src={`${img}`}/>
             </ImgBox>
             <UserInfoBox>
-                Meguinha
+                {`${name}`}
             </UserInfoBox>
         </Container>
     )

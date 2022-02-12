@@ -16,7 +16,7 @@ export const Container = styled.div`
         background-color: #303236;
     }
 `
-export const Avatar = styled.div`
+export const Avatar = styled.img`
 
     width: 40px;
     height: 40px;

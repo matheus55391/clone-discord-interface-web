@@ -1,11 +1,13 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import { ChannelMessage, IChannelMessage } from ".."
+import { useUser } from "../../hooks/useUser"
 import { Container, Messages, InputWrapper, Input, InputIcon } from "./styles"
 
 
 export const ChannelChat = () =>{
     const [messageContent, setMessageContent] = useState<string>("")
     const [messageList, setMessageList] = useState<IChannelMessage[]>([])
+    const {name, img} = useUser()
     
     const handleMessageText = (e: React.ChangeEvent<HTMLInputElement>) =>{
         setMessageContent(e.target.value)        
@@ -15,24 +17,25 @@ export const ChannelChat = () =>{
 
         if(event.key === "Enter" && messageContent) {  
             setMessageList([...messageList, {
-                author: "Fulano",
+                author: `${name}`,
+                avatar: `${img}`,
                 date: "08/02/2022",
                 content: messageContent,
                 hasMention: false,
                 isBot: false,
             }])
+
             setMessageContent("")
         }
 
     }
-
     return(
         <Container>
             <Messages>
                     {
                         messageList.map((v, i)=>{
                             return(
-                                <ChannelMessage author="Meguinha" date="21/06/2020" content={v.content} key={i}/>
+                                <ChannelMessage avatar={v.avatar} author={v.author} date="21/06/2020" content={v.content} key={i}/>
                             )
                         })
                     }

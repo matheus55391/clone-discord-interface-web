@@ -2,6 +2,7 @@ import { Container, Avatar, Message, Header, Content } from './styles'
 
 export interface IChannelMessage {
     author: string;
+    avatar: string;
     date?: string;
     content: string;
     hasMention?: boolean;
@@ -11,7 +12,7 @@ export interface IChannelMessage {
 export const ChannelMessage = (props: IChannelMessage) => {
     return(
         <Container>
-            <Avatar/>
+            <Avatar src={props.avatar}/>
             <Message>
                 <Header>
                     <strong>{props.author}</strong>
