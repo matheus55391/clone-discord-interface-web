@@ -20,7 +20,7 @@ export const Login = () => {
                     opacity: 1
                 }}
                 transition={{
-                    duration: 10
+                    duration: 0.4
                 }}
 
             >
