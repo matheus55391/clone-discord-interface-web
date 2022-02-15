@@ -34,11 +34,10 @@ export const LoginForm = () => {
             setBadPass(true)
         }
         if(login && password){
+            setName(login)
             setLogin('')
             setPassword('')
-            console.log(login + ' -- ' + password)
-            setName(login)
-            navigate("/Discord-Clone/Channels")            
+            navigate("/channels")            
         }       
     }
 
@@ -61,7 +60,7 @@ export const LoginForm = () => {
                         setBadLogin(false)
                     }}
                     bad ={badLogin}
-                    maxLength={45}   
+                    maxLength={45}  
                 />
 
                 <InputTitle bad={badPass}>SENHA {badPass? '- Este campo é obrigatório': ''}</InputTitle>
