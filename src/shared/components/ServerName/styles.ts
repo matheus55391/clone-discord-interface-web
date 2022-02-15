@@ -5,7 +5,8 @@ export const Container = styled.div`
     grid-area: SN;
     background-color: #2F3136;
     color: var(--white);
-
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     
@@ -24,7 +25,7 @@ export const Text = styled.span`
     font-size: 100%;
     height: 100%;
     width: 100%;
-    display: flex;
+    
     flex-direction: row;
     align-items: center;
     justify-content: left;

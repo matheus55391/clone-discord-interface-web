@@ -8,7 +8,7 @@ export const AppRoutes = () =>{
             
             <Route path='/Discord-Clone/Login' element={<Login/>}/>
             <Route path='/Discord-Clone/Channels' element={<DiscordLayout/>}/>
-            <Route path='*' element={<Navigate to="/Discord-Clone/login"/>}/>
+            <Route path='/Discord-Clone/*' element={<Navigate to="/Discord-Clone/login"/>}/>
         </Routes>
     )
 }

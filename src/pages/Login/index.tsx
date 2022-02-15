@@ -14,10 +14,12 @@ export const Login = () => {
         <LoginBody>
             <Main 
                 initial={{
-                    opacity: 0.2
+                    opacity: 0.2,
+                    y: 40
                 }}
                 animate={{
-                    opacity: 1
+                    opacity: 1,
+                    y: 1
                 }}
                 transition={{
                     duration: 0.4
