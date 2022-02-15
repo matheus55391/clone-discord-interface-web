@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import background from "../../../public/images/background.png"
+import background from "../../../images/background.png"
 
 type InputProps = {
     bad: boolean;

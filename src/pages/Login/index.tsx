@@ -11,7 +11,7 @@ import {
     LoginBtn
 } from "./styles"
 
-import logo from "../../../public/images/discordlogo.svg"
+import logo from "../../../images/discordlogo.svg"
 import { Navigate } from "react-router-dom"
 import React, { useState } from "react"
 
