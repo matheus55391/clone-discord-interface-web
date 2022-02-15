@@ -1,4 +1,4 @@
-import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R as I,b as u,N as $,W as E,B as j,c as z,d as M}from"./vendor.f91fe9e3.js";const N=function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))l(n);new MutationObserver(n=>{for(const a of n)if(a.type==="childList")for(const p of a.addedNodes)p.tagName==="LINK"&&p.rel==="modulepreload"&&l(p)}).observe(document,{childList:!0,subtree:!0});function d(n){const a={};return n.integrity&&(a.integrity=n.integrity),n.referrerpolicy&&(a.referrerPolicy=n.referrerpolicy),n.crossorigin==="use-credentials"?a.credentials="include":n.crossorigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function l(n){if(n.ep)return;n.ep=!0;const a=d(n);fetch(n.href,a)}};N();var U="/assets/background.982194cc.png";const R=t.div`
+import{s as t,m as C,j as i,a as e,T as k,M as F,r as x,S as L,A as S,u as B,R as I,b as u,N as $,W as E,B as j,c as z,d as M}from"./vendor.f91fe9e3.js";const N=function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))l(n);new MutationObserver(n=>{for(const a of n)if(a.type==="childList")for(const p of a.addedNodes)p.tagName==="LINK"&&p.rel==="modulepreload"&&l(p)}).observe(document,{childList:!0,subtree:!0});function d(n){const a={};return n.integrity&&(a.integrity=n.integrity),n.referrerpolicy&&(a.referrerPolicy=n.referrerpolicy),n.crossorigin==="use-credentials"?a.credentials="include":n.crossorigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function l(n){if(n.ep)return;n.ep=!0;const a=d(n);fetch(n.href,a)}};N();var U="/Discord-Clone/assets/background.982194cc.png";const D=t.div`
     width: 100vw;
     height: 100vh;
     align-items: center;
@@ -8,7 +8,7 @@ import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R a
     background-image: url(${U});
     background-size: 100% 100%;
 
-`,T=t(k.div)` 
+`,R=t(C.div)` 
 
     display: flex;
     flex-direction: row;
@@ -54,7 +54,7 @@ import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R a
         display: none;
     }
 
-`;const A=t.div`
+`;const T=t.div`
     background-color: var(--tertiary);  
     grid-area: SL;
 
@@ -70,7 +70,7 @@ import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R a
     ::-webkit-scrollbar{
         display: none;
     }
-`,P=t.div`
+`,A=t.div`
 
     width: 32px;
     border-radius: 1px;
@@ -80,7 +80,7 @@ import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R a
     border-bottom: 2px solid var(--quaternary);
     margin-bottom: 8px;
 
-`,D=()=>i(A,{children:[e(r,{}),e(P,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{})]}),H=t.button`
+`,P=()=>i(T,{children:[e(o,{}),e(A,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{})]}),H=t.button`
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -93,7 +93,7 @@ import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R a
     flex-shrink: 0;
     background-color: var(--symbol);
 
-`,r=()=>e(H,{}),O=t.div`
+`,o=()=>e(H,{}),O=t.div`
     grid-area: SN;
     background-color: #2F3136;
     color: var(--white);
@@ -151,7 +151,7 @@ import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R a
     white-space: nowrap;
     padding: 0px 0px 0px 0px;
     
-`,K=t(C)`
+`,K=t(k)`
     width: 28px;
     height: 28px;
     color: var(--gray);
@@ -238,7 +238,7 @@ import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R a
         border-radius: 10px;
     }
 
-`,te=()=>e(ee,{}),f={nome:"",img:"https://avatars.githubusercontent.com/u/35656197?v=4"},b=x.exports.createContext({}),re=({children:o})=>{const[s,d]=x.exports.useState({name:f.nome,img:f.img}),l=n=>{d({name:n,img:s.img})};return e(b.Provider,{value:{user:s,setName:l},children:o})},m=()=>{const{user:o,setName:s}=x.exports.useContext(b);return{user:o,setName:s}},oe=t.div`
+`,te=()=>e(ee,{}),f={nome:"",img:"https://avatars.githubusercontent.com/u/35656197?v=4"},b=x.exports.createContext({}),oe=({children:r})=>{const[s,d]=x.exports.useState({name:f.nome,img:f.img}),l=n=>{d({name:n,img:s.img})};return e(b.Provider,{value:{user:s,setName:l},children:r})},m=()=>{const{user:r,setName:s}=x.exports.useContext(b);return{user:r,setName:s}},re=t.div`
 
     grid-area: CH;
 
@@ -299,7 +299,7 @@ import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R a
     width: 24px;
     height: 24px;
     color: var(--gray);
-`,de=()=>{const[o,s]=x.exports.useState(""),[d,l]=x.exports.useState([]),{user:n}=m(),a=c=>{s(c.target.value)},p=c=>{c.key==="Enter"&&o&&(l([...d,{author:`${n.name}`,avatar:`${n.img}`,date:"08/02/2022",content:o,hasMention:!1,isBot:!1}]),s(""))};return i(oe,{children:[e(ne,{children:d.map((c,h)=>e(ve,{avatar:c.avatar,author:c.author,date:"21/06/2020",content:c.content},h))}),i(ie,{children:[e(ae,{value:o,onChange:a,onKeyUp:p,type:"text",placeholder:"Conversando no chat"}),e(se,{})]})]})},ce=t.div`
+`,de=()=>{const[r,s]=x.exports.useState(""),[d,l]=x.exports.useState([]),{user:n}=m(),a=c=>{s(c.target.value)},p=c=>{c.key==="Enter"&&r&&(l([...d,{author:`${n.name}`,avatar:`${n.img}`,date:"08/02/2022",content:r,hasMention:!1,isBot:!1}]),s(""))};return i(re,{children:[e(ne,{children:d.map((c,h)=>e(ve,{avatar:c.avatar,author:c.author,date:"21/06/2020",content:c.content},h))}),i(ie,{children:[e(ae,{value:r,onChange:a,onKeyUp:p,type:"text",placeholder:"Conversando no chat"}),e(se,{})]})]})},ce=t.div`
     @media screen and (max-width: 600px){
         display: none;
     }
@@ -327,7 +327,7 @@ import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R a
     height: 140%;
 `,xe=t.div`
     color: var(--white);
-`,ge=()=>{const{user:o}=m();return i(ce,{children:[e(le,{children:e(pe,{src:`${o.img}`})}),e(xe,{children:`${o.name}`})]})},he=t.div`
+`,ge=()=>{const{user:r}=m();return i(ce,{children:[e(le,{children:e(pe,{src:`${r.img}`})}),e(xe,{children:`${r.name}`})]})},he=t.div`
     display: flex;
     align-items: center;
     padding: 4px 16px;
@@ -379,7 +379,7 @@ import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R a
     font-size: 14px;
     color: var(--white);
 
-`,ve=o=>i(he,{children:[e(ue,{src:o.avatar}),i(me,{children:[i(fe,{children:[e("strong",{children:o.author}),o.isBot&&e("span",{children:"Bot"}),e("time",{children:o.date})]}),e(be,{children:o.content})]})]}),we=t.div`
+`,ve=r=>i(he,{children:[e(ue,{src:r.avatar}),i(me,{children:[i(fe,{children:[e("strong",{children:r.author}),r.isBot&&e("span",{children:"Bot"}),e("time",{children:r.date})]}),e(be,{children:r.content})]})]}),we=t.div`
 
     display: flex;
     flex-direction: column;
@@ -396,12 +396,12 @@ import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R a
     @media (min-width: 501px){
         display: none;
     }
-`,ke=t.h3`
+`,Ce=t.h3`
 
     font-size: 26px;
     margin: 0px 0px 8px;
     color: #ffffff;
-`,Ce=t.p`
+`,ke=t.p`
 
     color: #B9BBBE;
     font-size: 16px;
@@ -423,17 +423,17 @@ import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R a
     margin: 20px 0px 10px 0px;
     font-weight: bold;
     padding-left: 4px;
-    color: ${o=>o.bad?"red":"#B9BBBE"};    
+    color: ${r=>r.bad?"red":"#B9BBBE"};    
 `,w=t.input`
 
     background-color: #2f3136;
-    border: 1px solid ${o=>o.bad?"red":"#202225"};
+    border: 1px solid ${r=>r.bad?"red":"#202225"};
     border-radius: 4px;
     height: 48px;
     color: #fff;
     padding: 10px;
     &:focus {
-        border: 1px solid ${o=>o.bad?"red":"#007FFF"};
+        border: 1px solid ${r=>r.bad?"red":"#007FFF"};
     }
 `,Se=t.button`
 
@@ -450,7 +450,7 @@ import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R a
         background-color: #404EED;
         
     }
-`;var Be="/assets/discordlogo.641b1091.svg";const Ie=()=>{const[o,s]=x.exports.useState(!1),[d,l]=x.exports.useState(!1),[n,a]=x.exports.useState(""),[p,c]=x.exports.useState(""),{setName:h}=m(),y=B();return i(we,{children:[i(Le,{children:[e(ye,{src:Be}),e(ke,{children:"Boas-vindas de volta!"}),e(Ce,{children:"Estamos muito animados em te ver novamente!"})]}),i(Fe,{onSubmit:g=>{g.preventDefault(),n||s(!0),p||l(!0),n&&p&&(h(n),a(""),c(""),y("/channels"))},children:[i(v,{bad:o,children:["LOGIN ",o?"- Este campo \xE9 obrigat\xF3rio":""]}),e(w,{autoFocus:!0,type:"text",value:n,onChange:g=>{a(g.target.value),s(!1)},bad:o,maxLength:45}),i(v,{bad:d,children:["SENHA ",d?"- Este campo \xE9 obrigat\xF3rio":""]}),e(w,{type:"password",value:p,onChange:g=>{c(g.target.value),l(!1)},bad:d,maxLength:45}),e(Se,{onClick:()=>{},children:"Entrar"})]})]})};var $e="/assets/qr-code.a6db07aa.svg";const Ee=t.div`
+`;var Be="/Discord-Clone/assets/discordlogo.641b1091.svg";const Ie=()=>{const[r,s]=x.exports.useState(!1),[d,l]=x.exports.useState(!1),[n,a]=x.exports.useState(""),[p,c]=x.exports.useState(""),{setName:h}=m(),y=B();return i(we,{children:[i(Le,{children:[e(ye,{src:Be}),e(Ce,{children:"Boas-vindas de volta!"}),e(ke,{children:"Estamos muito animados em te ver novamente!"})]}),i(Fe,{onSubmit:g=>{g.preventDefault(),n||s(!0),p||l(!0),n&&p&&(h(n),a(""),c(""),y("/Discord-Clone/channels"))},children:[i(v,{bad:r,children:["LOGIN ",r?"- Este campo \xE9 obrigat\xF3rio":""]}),e(w,{autoFocus:!0,type:"text",value:n,onChange:g=>{a(g.target.value),s(!1)},bad:r,maxLength:45}),i(v,{bad:d,children:["SENHA ",d?"- Este campo \xE9 obrigat\xF3rio":""]}),e(w,{type:"password",value:p,onChange:g=>{c(g.target.value),l(!1)},bad:d,maxLength:45}),e(Se,{onClick:()=>{},children:"Entrar"})]})]})};var $e="/Discord-Clone/assets/qr-code.a6db07aa.svg";const Ee=t.div`
 
     display: flex;
     flex-direction: column;
@@ -477,7 +477,7 @@ import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R a
 
     color: #B9BBBE;
     font-size: 14px;
-`,Ne=()=>i(Ee,{children:[e("a",{href:"https://github.com/matheus55391/Discord-Clone",target:"_blank",rel:"meugit",children:e(je,{src:$e})}),e(ze,{children:"Acesse o projeto com o C\xF3digo QR"}),i(Me,{children:["Escaneie isto com a ",e("strong",{children:"c\xE2mera do seu smartphone"})," para acessar o reposit\xF3rio do projeto."]})]}),Ue=()=>e(R,{children:i(T,{initial:{opacity:.2},animate:{opacity:1},transition:{duration:.4},children:[e(Ie,{}),e(Ne,{})]})}),Re=t.div`
+`,Ne=()=>i(Ee,{children:[e("a",{href:"https://github.com/matheus55391/Discord-Clone",target:"_blank",rel:"meugit",children:e(je,{src:$e})}),e(ze,{children:"Acesse o projeto com o C\xF3digo QR"}),i(Me,{children:["Escaneie isto com a ",e("strong",{children:"c\xE2mera do seu smartphone"})," para acessar o reposit\xF3rio do projeto."]})]}),Ue=()=>e(D,{children:i(R,{initial:{opacity:.2},animate:{opacity:1},transition:{duration:.4},children:[e(Ie,{}),e(Ne,{})]})}),De=t.div`
     display: grid;
 
     @media screen and (min-width: 601px){
@@ -499,7 +499,7 @@ import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R a
     ;
     height: 100vh;
 
-`,Te=()=>i(Re,{children:[e(D,{}),e(G,{}),e(_,{}),e(Z,{}),e(te,{}),e(de,{}),e(ge,{})]}),Ae=()=>i(I,{children:[e(u,{path:"/login",element:e(Ue,{})}),e(u,{path:"/channels",element:e(Te,{})}),e(u,{path:"*",element:e($,{to:"/login"})})]}),Pe=E`
+`,Re=()=>i(De,{children:[e(P,{}),e(G,{}),e(_,{}),e(Z,{}),e(te,{}),e(de,{}),e(ge,{})]}),Te=()=>i(I,{children:[e(u,{path:"/Discord-Clone/Login",element:e(Ue,{})}),e(u,{path:"/Discord-Clone/Channels",element:e(Re,{})}),e(u,{path:"*",element:e($,{to:"/Discord-Clone/login"})})]}),Ae=E`
     *{
         margin: 0;
         box-sizing: border-box;
@@ -537,4 +537,4 @@ import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R a
     }
 
     
-`,De=()=>e(j,{children:i(re,{children:[e(Ae,{}),e(Pe,{})]})});z.render(e(M.StrictMode,{children:e(De,{})}),document.getElementById("root"));
+`,Pe=()=>e(j,{children:i(oe,{children:[e(Te,{}),e(Ae,{})]})});z.render(e(M.StrictMode,{children:e(Pe,{})}),document.getElementById("root"));
