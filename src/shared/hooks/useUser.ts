@@ -1,8 +1,8 @@
 import { useContext } from "react"
-import { UserContext, UserProvider } from "../context/UserContext"
+import { UserContext } from "../context/UserContext"
 
 export const useUser = () => {
-    const {name, img} = useContext(UserContext)
-    return {name, img}
+    const {user, setName} = useContext(UserContext)
+    return {user, setName}
 
 }

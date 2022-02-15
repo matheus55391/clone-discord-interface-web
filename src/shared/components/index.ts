@@ -8,3 +8,5 @@ export * from "./ChannelChat"
 export * from "./UserInfo"
 export * from "./ChannelChat"
 export * from "./ChannelMessage"
+
+export * from "./LoginForm"

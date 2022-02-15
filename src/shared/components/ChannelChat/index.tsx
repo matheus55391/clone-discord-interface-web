@@ -7,7 +7,7 @@ import { Container, Messages, InputWrapper, Input, InputIcon } from "./styles"
 export const ChannelChat = () =>{
     const [messageContent, setMessageContent] = useState<string>("")
     const [messageList, setMessageList] = useState<IChannelMessage[]>([])
-    const {name, img} = useUser()
+    const {user} = useUser()
     
     const handleMessageText = (e: React.ChangeEvent<HTMLInputElement>) =>{
         setMessageContent(e.target.value)        
@@ -17,8 +17,8 @@ export const ChannelChat = () =>{
 
         if(event.key === "Enter" && messageContent) {  
             setMessageList([...messageList, {
-                author: `${name}`,
-                avatar: `${img}`,
+                author: `${user.name}`,
+                avatar: `${user.img}`,
                 date: "08/02/2022",
                 content: messageContent,
                 hasMention: false,

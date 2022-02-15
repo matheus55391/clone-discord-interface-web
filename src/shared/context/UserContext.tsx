@@ -1,24 +1,45 @@
 import React, { createContext, useState } from "react"
 
-type UserContextType = {   
-    name?: string;
-    img?: string;
+interface IUser  {   
+    name: string;
+    img: string;
+    
 }
 
+interface IConnection  {
+    user: IUser;
+    setName: (newName: string) => void;
+}
+
+
 const defaultvalue = {
-    nome: 'matheus55391',
+    nome: '',
     img: 'https://avatars.githubusercontent.com/u/35656197?v=4'
 }
 
 
-export const UserContext = createContext<UserContextType>({} as UserContextType)
+export const UserContext = createContext<IConnection>({} as IConnection)
 
 export const UserProvider: React.FC = ({ children }) =>{
-    const [name] = useState<string>(defaultvalue.nome)
-    const [img] = useState<string>(defaultvalue.img)
+    const [user, setUser] = useState<IUser>({
+        name: defaultvalue.nome,
+        img: defaultvalue.img
+    })
+    
+    const setName = (newName: string) =>{
+        setUser({
+            name: newName,
+            img: user.img
+        })
+    }
 
     return(
-        <UserContext.Provider value={{name: name, img:img}}>
+        <UserContext.Provider 
+            value={{
+                user, 
+                setName
+            }}
+        >
             {children}
         </UserContext.Provider>
     )

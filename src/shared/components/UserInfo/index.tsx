@@ -2,15 +2,15 @@
 import { useUser } from "../../hooks/useUser"
 import { Container, ImgBox, UserInfoBox, UserPicture } from "./styles"
 export const UserInfo = () =>{
-    const {name, img} = useUser()
+    const {user} = useUser()
     return(
         <Container>
         
             <ImgBox>
-                <UserPicture src={`${img}`}/>
+                <UserPicture src={`${user.img}`}/>
             </ImgBox>
             <UserInfoBox>
-                {`${name}`}
+                {`${user.name}`}
             </UserInfoBox>
         </Container>
     )
