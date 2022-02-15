@@ -14,8 +14,7 @@ export const Grid = styled.div`
         grid-template-rows: 46px auto 52px;
 
     }
-
-
+    
     grid-template-areas:
             'SL SN CI CI' 
             'SL CL CH UL'
