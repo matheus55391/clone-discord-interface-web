@@ -1,11 +1,11 @@
-import{s as t,m as C,j as i,a as e,T as k,M as F,r as x,S as L,A as S,u as B,R as I,b as u,N as $,W as E,B as j,c as z,d as M}from"./vendor.f91fe9e3.js";const N=function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))l(n);new MutationObserver(n=>{for(const a of n)if(a.type==="childList")for(const p of a.addedNodes)p.tagName==="LINK"&&p.rel==="modulepreload"&&l(p)}).observe(document,{childList:!0,subtree:!0});function d(n){const a={};return n.integrity&&(a.integrity=n.integrity),n.referrerpolicy&&(a.referrerPolicy=n.referrerpolicy),n.crossorigin==="use-credentials"?a.credentials="include":n.crossorigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function l(n){if(n.ep)return;n.ep=!0;const a=d(n);fetch(n.href,a)}};N();var U="/Discord-Clone/assets/background.982194cc.png";const D=t.div`
+import{s as t,m as C,j as i,a as e,T as k,M as F,r as x,S as L,A as S,u as B,R as I,b as u,N as $,W as E,B as j,c as z,d as M}from"./vendor.f91fe9e3.js";const N=function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))l(n);new MutationObserver(n=>{for(const a of n)if(a.type==="childList")for(const p of a.addedNodes)p.tagName==="LINK"&&p.rel==="modulepreload"&&l(p)}).observe(document,{childList:!0,subtree:!0});function d(n){const a={};return n.integrity&&(a.integrity=n.integrity),n.referrerpolicy&&(a.referrerPolicy=n.referrerpolicy),n.crossorigin==="use-credentials"?a.credentials="include":n.crossorigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function l(n){if(n.ep)return;n.ep=!0;const a=d(n);fetch(n.href,a)}};N();var D="/Discord-Clone/assets/background.982194cc.png";const U=t.div`
     width: 100vw;
     height: 100vh;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: row;
-    background-image: url(${U});
+    background-image: url(${D});
     background-size: 100% 100%;
 
 `,R=t(C.div)` 
@@ -97,7 +97,8 @@ import{s as t,m as C,j as i,a as e,T as k,M as F,r as x,S as L,A as S,u as B,R a
     grid-area: SN;
     background-color: #2F3136;
     color: var(--white);
-
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     
@@ -114,7 +115,7 @@ import{s as t,m as C,j as i,a as e,T as k,M as F,r as x,S as L,A as S,u as B,R a
     font-size: 100%;
     height: 100%;
     width: 100%;
-    display: flex;
+    
     flex-direction: row;
     align-items: center;
     justify-content: left;
@@ -477,7 +478,7 @@ import{s as t,m as C,j as i,a as e,T as k,M as F,r as x,S as L,A as S,u as B,R a
 
     color: #B9BBBE;
     font-size: 14px;
-`,Ne=()=>i(Ee,{children:[e("a",{href:"https://github.com/matheus55391/Discord-Clone",target:"_blank",rel:"meugit",children:e(je,{src:$e})}),e(ze,{children:"Acesse o projeto com o C\xF3digo QR"}),i(Me,{children:["Escaneie isto com a ",e("strong",{children:"c\xE2mera do seu smartphone"})," para acessar o reposit\xF3rio do projeto."]})]}),Ue=()=>e(D,{children:i(R,{initial:{opacity:.2},animate:{opacity:1},transition:{duration:.4},children:[e(Ie,{}),e(Ne,{})]})}),De=t.div`
+`,Ne=()=>i(Ee,{children:[e("a",{href:"https://github.com/matheus55391/Discord-Clone",target:"_blank",rel:"meugit",children:e(je,{src:$e})}),e(ze,{children:"Acesse o projeto com o C\xF3digo QR"}),i(Me,{children:["Escaneie isto com a ",e("strong",{children:"c\xE2mera do seu smartphone"})," para acessar o reposit\xF3rio do projeto."]})]}),De=()=>e(U,{children:i(R,{initial:{opacity:.2,y:40},animate:{opacity:1,y:1},transition:{duration:.4},children:[e(Ie,{}),e(Ne,{})]})}),Ue=t.div`
     display: grid;
 
     @media screen and (min-width: 601px){
@@ -499,7 +500,7 @@ import{s as t,m as C,j as i,a as e,T as k,M as F,r as x,S as L,A as S,u as B,R a
     ;
     height: 100vh;
 
-`,Re=()=>i(De,{children:[e(P,{}),e(G,{}),e(_,{}),e(Z,{}),e(te,{}),e(de,{}),e(ge,{})]}),Te=()=>i(I,{children:[e(u,{path:"/Discord-Clone/Login",element:e(Ue,{})}),e(u,{path:"/Discord-Clone/Channels",element:e(Re,{})}),e(u,{path:"*",element:e($,{to:"/Discord-Clone/login"})})]}),Ae=E`
+`,Re=()=>i(Ue,{children:[e(P,{}),e(G,{}),e(_,{}),e(Z,{}),e(te,{}),e(de,{}),e(ge,{})]}),Te=()=>i(I,{children:[e(u,{path:"/Discord-Clone/Login",element:e(De,{})}),e(u,{path:"/Discord-Clone/Channels",element:e(Re,{})}),e(u,{path:"/Discord-Clone/*",element:e($,{to:"/Discord-Clone/login"})})]}),Ae=E`
     *{
         margin: 0;
         box-sizing: border-box;
