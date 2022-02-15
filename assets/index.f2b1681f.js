@@ -1,14 +1,14 @@
-import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B as E,b as z,c as M}from"./vendor.f12503ff.js";const U=function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))p(n);new MutationObserver(n=>{for(const a of n)if(a.type==="childList")for(const c of a.addedNodes)c.tagName==="LINK"&&c.rel==="modulepreload"&&p(c)}).observe(document,{childList:!0,subtree:!0});function d(n){const a={};return n.integrity&&(a.integrity=n.integrity),n.referrerpolicy&&(a.referrerPolicy=n.referrerpolicy),n.crossorigin==="use-credentials"?a.credentials="include":n.crossorigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function p(n){if(n.ep)return;n.ep=!0;const a=d(n);fetch(n.href,a)}};U();var N="/Discord-Clone/assets/background.982194cc.png";const D=t.div`
+import{s as t,m as k,j as i,a as e,T as C,M as F,r as x,S as L,A as S,u as B,R as I,b as u,N as $,W as E,B as j,c as z,d as M}from"./vendor.f91fe9e3.js";const N=function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))l(n);new MutationObserver(n=>{for(const a of n)if(a.type==="childList")for(const p of a.addedNodes)p.tagName==="LINK"&&p.rel==="modulepreload"&&l(p)}).observe(document,{childList:!0,subtree:!0});function d(n){const a={};return n.integrity&&(a.integrity=n.integrity),n.referrerpolicy&&(a.referrerPolicy=n.referrerpolicy),n.crossorigin==="use-credentials"?a.credentials="include":n.crossorigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function l(n){if(n.ep)return;n.ep=!0;const a=d(n);fetch(n.href,a)}};N();var U="/assets/background.982194cc.png";const R=t.div`
     width: 100vw;
     height: 100vh;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: row;
-    background-image: url(${N});
+    background-image: url(${U});
     background-size: 100% 100%;
 
-`,R=t.div` 
+`,T=t(k.div)` 
 
     display: flex;
     flex-direction: row;
@@ -54,7 +54,7 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
         display: none;
     }
 
-`;const T=t.div`
+`;const A=t.div`
     background-color: var(--tertiary);  
     grid-area: SL;
 
@@ -70,7 +70,7 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
     ::-webkit-scrollbar{
         display: none;
     }
-`,A=t.div`
+`,P=t.div`
 
     width: 32px;
     border-radius: 1px;
@@ -80,7 +80,7 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
     border-bottom: 2px solid var(--quaternary);
     margin-bottom: 8px;
 
-`,e=f.exports.jsx,i=f.exports.jsxs,P=()=>i(T,{children:[e(o,{}),e(A,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{}),e(o,{})]}),H=t.button`
+`,D=()=>i(A,{children:[e(r,{}),e(P,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{}),e(r,{})]}),H=t.button`
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -93,7 +93,7 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
     flex-shrink: 0;
     background-color: var(--symbol);
 
-`,o=()=>e(H,{}),O=t.div`
+`,r=()=>e(H,{}),O=t.div`
     grid-area: SN;
     background-color: #2F3136;
     color: var(--white);
@@ -151,7 +151,7 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
     white-space: nowrap;
     padding: 0px 0px 0px 0px;
     
-`,K=t(F)`
+`,K=t(C)`
     width: 28px;
     height: 28px;
     color: var(--gray);
@@ -166,7 +166,7 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
     display: flex;
     justify-content: center;
     align-items: center;
-`,V=t(L)`
+`,V=t(F)`
     width: 30px;
     height: 30px;
     color: var(--gray);
@@ -238,7 +238,7 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
         border-radius: 10px;
     }
 
-`,te=()=>e(ee,{}),b={nome:"",img:"https://avatars.githubusercontent.com/u/35656197?v=4"},v=x.exports.createContext({}),oe=({children:r})=>{const[s,d]=x.exports.useState({name:b.nome,img:b.img}),p=n=>{d({name:n,img:s.img})};return e(v.Provider,{value:{user:s,setName:p},children:r})},m=()=>{const{user:r,setName:s}=x.exports.useContext(v);return{user:r,setName:s}},re=t.div`
+`,te=()=>e(ee,{}),f={nome:"",img:"https://avatars.githubusercontent.com/u/35656197?v=4"},b=x.exports.createContext({}),re=({children:o})=>{const[s,d]=x.exports.useState({name:f.nome,img:f.img}),l=n=>{d({name:n,img:s.img})};return e(b.Provider,{value:{user:s,setName:l},children:o})},m=()=>{const{user:o,setName:s}=x.exports.useContext(b);return{user:o,setName:s}},oe=t.div`
 
     grid-area: CH;
 
@@ -249,7 +249,7 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
     justify-content:space-between;
 
 
-`,ne=t(S)`
+`,ne=t(L)`
     padding: 20px 0;
     display: flex;
     flex-direction: column;
@@ -295,11 +295,11 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
         transition: 180ms ease-in-out;
     }
   
-`,se=t(B)`
+`,se=t(S)`
     width: 24px;
     height: 24px;
     color: var(--gray);
-`,de=()=>{const[r,s]=x.exports.useState(""),[d,p]=x.exports.useState([]),{user:n}=m(),a=l=>{s(l.target.value)},c=l=>{l.key==="Enter"&&r&&(p([...d,{author:`${n.name}`,avatar:`${n.img}`,date:"08/02/2022",content:r,hasMention:!1,isBot:!1}]),s(""))};return i(re,{children:[e(ne,{children:d.map((l,g)=>e(ve,{avatar:l.avatar,author:l.author,date:"21/06/2020",content:l.content},g))}),i(ie,{children:[e(ae,{value:r,onChange:a,onKeyUp:c,type:"text",placeholder:"Conversando no chat"}),e(se,{})]})]})},ce=t.div`
+`,de=()=>{const[o,s]=x.exports.useState(""),[d,l]=x.exports.useState([]),{user:n}=m(),a=c=>{s(c.target.value)},p=c=>{c.key==="Enter"&&o&&(l([...d,{author:`${n.name}`,avatar:`${n.img}`,date:"08/02/2022",content:o,hasMention:!1,isBot:!1}]),s(""))};return i(oe,{children:[e(ne,{children:d.map((c,h)=>e(ve,{avatar:c.avatar,author:c.author,date:"21/06/2020",content:c.content},h))}),i(ie,{children:[e(ae,{value:o,onChange:a,onKeyUp:p,type:"text",placeholder:"Conversando no chat"}),e(se,{})]})]})},ce=t.div`
     @media screen and (max-width: 600px){
         display: none;
     }
@@ -327,7 +327,7 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
     height: 140%;
 `,xe=t.div`
     color: var(--white);
-`,he=()=>{const{user:r}=m();return i(ce,{children:[e(le,{children:e(pe,{src:`${r.img}`})}),e(xe,{children:`${r.name}`})]})},ge=t.div`
+`,ge=()=>{const{user:o}=m();return i(ce,{children:[e(le,{children:e(pe,{src:`${o.img}`})}),e(xe,{children:`${o.name}`})]})},he=t.div`
     display: flex;
     align-items: center;
     padding: 4px 16px;
@@ -379,7 +379,7 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
     font-size: 14px;
     color: var(--white);
 
-`,ve=r=>i(ge,{children:[e(ue,{src:r.avatar}),i(me,{children:[i(fe,{children:[e("strong",{children:r.author}),r.isBot&&e("span",{children:"Bot"}),e("time",{children:r.date})]}),e(be,{children:r.content})]})]}),we=t.div`
+`,ve=o=>i(he,{children:[e(ue,{src:o.avatar}),i(me,{children:[i(fe,{children:[e("strong",{children:o.author}),o.isBot&&e("span",{children:"Bot"}),e("time",{children:o.date})]}),e(be,{children:o.content})]})]}),we=t.div`
 
     display: flex;
     flex-direction: column;
@@ -396,12 +396,12 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
     @media (min-width: 501px){
         display: none;
     }
-`,Ce=t.h3`
+`,ke=t.h3`
 
     font-size: 26px;
     margin: 0px 0px 8px;
     color: #ffffff;
-`,ke=t.p`
+`,Ce=t.p`
 
     color: #B9BBBE;
     font-size: 16px;
@@ -417,23 +417,23 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
 `,Le=t.div`
 
     text-align: center;
-`,w=t.p`
+`,v=t.p`
 
     font-size: 14px;
     margin: 20px 0px 10px 0px;
     font-weight: bold;
     padding-left: 4px;
-    color: ${r=>r.bad?"red":"#B9BBBE"};    
-`,y=t.input`
+    color: ${o=>o.bad?"red":"#B9BBBE"};    
+`,w=t.input`
 
     background-color: #2f3136;
-    border: 1px solid ${r=>r.bad?"red":"#202225"};
+    border: 1px solid ${o=>o.bad?"red":"#202225"};
     border-radius: 4px;
     height: 48px;
     color: #fff;
     padding: 10px;
     &:focus {
-        border: 1px solid ${r=>r.bad?"red":"#007FFF"};
+        border: 1px solid ${o=>o.bad?"red":"#007FFF"};
     }
 `,Se=t.button`
 
@@ -450,7 +450,7 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
         background-color: #404EED;
         
     }
-`;var Be="/Discord-Clone/assets/discordlogo.641b1091.svg";const Ie=()=>{const[r,s]=x.exports.useState(!1),[d,p]=x.exports.useState(!1),[n,a]=x.exports.useState(""),[c,l]=x.exports.useState(""),{setName:g}=m(),k=I();return i(we,{children:[i(Le,{children:[e(ye,{src:Be}),e(Ce,{children:"Boas-vindas de volta!"}),e(ke,{children:"Estamos muito animados em te ver novamente!"})]}),i(Fe,{onSubmit:h=>{h.preventDefault(),n||s(!0),c||p(!0),n&&c&&(a(""),l(""),console.log(n+" -- "+c),g(n),k("/Discord-Clone/Channels"))},children:[i(w,{bad:r,children:["LOGIN ",r?"- Este campo \xE9 obrigat\xF3rio":""]}),e(y,{autoFocus:!0,type:"text",value:n,onChange:h=>{a(h.target.value),s(!1)},bad:r,maxLength:45}),i(w,{bad:d,children:["SENHA ",d?"- Este campo \xE9 obrigat\xF3rio":""]}),e(y,{type:"password",value:c,onChange:h=>{l(h.target.value),p(!1)},bad:d,maxLength:45}),e(Se,{onClick:()=>{},children:"Entrar"})]})]})};var $e="/Discord-Clone/assets/qr-code.a6db07aa.svg";const je=t.div`
+`;var Be="/assets/discordlogo.641b1091.svg";const Ie=()=>{const[o,s]=x.exports.useState(!1),[d,l]=x.exports.useState(!1),[n,a]=x.exports.useState(""),[p,c]=x.exports.useState(""),{setName:h}=m(),y=B();return i(we,{children:[i(Le,{children:[e(ye,{src:Be}),e(ke,{children:"Boas-vindas de volta!"}),e(Ce,{children:"Estamos muito animados em te ver novamente!"})]}),i(Fe,{onSubmit:g=>{g.preventDefault(),n||s(!0),p||l(!0),n&&p&&(h(n),a(""),c(""),y("/channels"))},children:[i(v,{bad:o,children:["LOGIN ",o?"- Este campo \xE9 obrigat\xF3rio":""]}),e(w,{autoFocus:!0,type:"text",value:n,onChange:g=>{a(g.target.value),s(!1)},bad:o,maxLength:45}),i(v,{bad:d,children:["SENHA ",d?"- Este campo \xE9 obrigat\xF3rio":""]}),e(w,{type:"password",value:p,onChange:g=>{c(g.target.value),l(!1)},bad:d,maxLength:45}),e(Se,{onClick:()=>{},children:"Entrar"})]})]})};var $e="/assets/qr-code.a6db07aa.svg";const Ee=t.div`
 
     display: flex;
     flex-direction: column;
@@ -462,7 +462,7 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
     @media (max-width: 900px){
         display: none;
     }
-`,Ee=t.img`
+`,je=t.img`
     
     max-width: 158px;
     margin-bottom: 15px;
@@ -477,7 +477,7 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
 
     color: #B9BBBE;
     font-size: 14px;
-`,Ue=()=>i(je,{children:[e("a",{href:"https://github.com/matheus55391/Discord-Clone",target:"_blank",rel:"meugit",children:e(Ee,{src:$e})}),e(ze,{children:"Acesse o projeto com o C\xF3digo QR"}),i(Me,{children:["Escaneie isto com a ",e("strong",{children:"c\xE2mera do seu smartphone"})," para acessar o reposit\xF3rio do projeto."]})]}),C=()=>e(D,{children:i(R,{children:[e(Ie,{}),e(Ue,{})]})}),Ne=t.div`
+`,Ne=()=>i(Ee,{children:[e("a",{href:"https://github.com/matheus55391/Discord-Clone",target:"_blank",rel:"meugit",children:e(je,{src:$e})}),e(ze,{children:"Acesse o projeto com o C\xF3digo QR"}),i(Me,{children:["Escaneie isto com a ",e("strong",{children:"c\xE2mera do seu smartphone"})," para acessar o reposit\xF3rio do projeto."]})]}),Ue=()=>e(R,{children:i(T,{initial:{opacity:.2},animate:{opacity:1},transition:{duration:.4},children:[e(Ie,{}),e(Ne,{})]})}),Re=t.div`
     display: grid;
 
     @media screen and (min-width: 601px){
@@ -499,7 +499,7 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
     ;
     height: 100vh;
 
-`,De=()=>i(Ne,{children:[e(P,{}),e(G,{}),e(_,{}),e(Z,{}),e(te,{}),e(de,{}),e(he,{})]}),Re=()=>i($,{children:[e(u,{path:"/Discord-Clone/Login",element:e(C,{})}),e(u,{path:"/Discord-Clone/Channels",element:e(De,{})}),e(u,{path:"/*",element:e(C,{})})]}),Te=j`
+`,Te=()=>i(Re,{children:[e(D,{}),e(G,{}),e(_,{}),e(Z,{}),e(te,{}),e(de,{}),e(ge,{})]}),Ae=()=>i(I,{children:[e(u,{path:"/login",element:e(Ue,{})}),e(u,{path:"/channels",element:e(Te,{})}),e(u,{path:"*",element:e($,{to:"/login"})})]}),Pe=E`
     *{
         margin: 0;
         box-sizing: border-box;
@@ -537,4 +537,4 @@ import{s as t,j as f,T as F,M as L,r as x,S,A as B,u as I,R as $,a as u,W as j,B
     }
 
     
-`,Ae=()=>e(E,{children:i(oe,{children:[e(Re,{}),e(Te,{})]})});z.render(e(M.StrictMode,{children:e(Ae,{})}),document.getElementById("root"));
+`,De=()=>e(j,{children:i(re,{children:[e(Ae,{}),e(Pe,{})]})});z.render(e(M.StrictMode,{children:e(De,{})}),document.getElementById("root"));
