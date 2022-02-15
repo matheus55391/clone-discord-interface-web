@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import background from "../../../images/background.png"
-
+import { motion } from "framer-motion"
 export const LoginBody = styled.div`
     width: 100vw;
     height: 100vh;
@@ -12,7 +12,7 @@ export const LoginBody = styled.div`
     background-size: 100% 100%;
 
 `
-export const Main = styled.div` 
+export const Main = styled(motion.div)` 
 
     display: flex;
     flex-direction: row;
