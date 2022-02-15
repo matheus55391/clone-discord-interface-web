@@ -37,7 +37,11 @@ export const LoginForm = () => {
             setName(login)
             setLogin('')
             setPassword('')
+<<<<<<< HEAD
             navigate("/Discord-Clone/channels")            
+=======
+            navigate("/channels")            
+>>>>>>> c84a4aa30afd4b2d7ccf16594a3548e20b35227d
         }       
     }
 
