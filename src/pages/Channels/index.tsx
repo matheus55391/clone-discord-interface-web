@@ -1,6 +1,6 @@
-import { ChannelList, ChannelInfo, ServerList, ServerName, UserList, ChannelChat, UserInfo } from '../../components'
+import { ChannelList, ChannelInfo, ServerList, ServerName, UserList, ChannelChat, UserInfo } from '../../shared/components'
 import { Grid } from './styles'
-export const DiscordLayout = () =>{
+export const Channels = () =>{
     return (
         <Grid>
             <ServerList/>
