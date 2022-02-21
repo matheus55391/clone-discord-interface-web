@@ -1,11 +1,11 @@
-import{s as t,m as C,j as i,a as e,T as k,M as F,r as x,S as L,A as S,u as B,R as I,b as u,N as $,W as E,B as j,c as z,d as M}from"./vendor.f91fe9e3.js";const N=function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))l(n);new MutationObserver(n=>{for(const a of n)if(a.type==="childList")for(const p of a.addedNodes)p.tagName==="LINK"&&p.rel==="modulepreload"&&l(p)}).observe(document,{childList:!0,subtree:!0});function d(n){const a={};return n.integrity&&(a.integrity=n.integrity),n.referrerpolicy&&(a.referrerPolicy=n.referrerpolicy),n.crossorigin==="use-credentials"?a.credentials="include":n.crossorigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function l(n){if(n.ep)return;n.ep=!0;const a=d(n);fetch(n.href,a)}};N();var D="/Discord-Clone/assets/background.982194cc.png";const U=t.div`
+import{s as t,m as C,j as i,a as e,T as k,M as F,r as x,S as L,A as S,u as B,R as I,b as u,N as $,W as E,B as j,c as z,d as M}from"./vendor.f91fe9e3.js";const N=function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))l(n);new MutationObserver(n=>{for(const a of n)if(a.type==="childList")for(const p of a.addedNodes)p.tagName==="LINK"&&p.rel==="modulepreload"&&l(p)}).observe(document,{childList:!0,subtree:!0});function d(n){const a={};return n.integrity&&(a.integrity=n.integrity),n.referrerpolicy&&(a.referrerPolicy=n.referrerpolicy),n.crossorigin==="use-credentials"?a.credentials="include":n.crossorigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function l(n){if(n.ep)return;n.ep=!0;const a=d(n);fetch(n.href,a)}};N();var U="/Discord-Clone/assets/background.982194cc.png";const D=t.div`
     width: 100vw;
     height: 100vh;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: row;
-    background-image: url(${D});
+    background-image: url(${U});
     background-size: 100% 100%;
 
 `,R=t(C.div)` 
@@ -300,7 +300,7 @@ import{s as t,m as C,j as i,a as e,T as k,M as F,r as x,S as L,A as S,u as B,R a
     width: 24px;
     height: 24px;
     color: var(--gray);
-`,de=()=>{const[r,s]=x.exports.useState(""),[d,l]=x.exports.useState([]),{user:n}=m(),a=c=>{s(c.target.value)},p=c=>{c.key==="Enter"&&r&&(l([...d,{author:`${n.name}`,avatar:`${n.img}`,date:"08/02/2022",content:r,hasMention:!1,isBot:!1}]),s(""))};return i(re,{children:[e(ne,{children:d.map((c,h)=>e(ve,{avatar:c.avatar,author:c.author,date:"21/06/2020",content:c.content},h))}),i(ie,{children:[e(ae,{value:r,onChange:a,onKeyUp:p,type:"text",placeholder:"Conversando no chat"}),e(se,{})]})]})},ce=t.div`
+`,de=()=>{const[r,s]=x.exports.useState(""),[d,l]=x.exports.useState([]),{user:n}=m(),a=c=>{s(c.target.value)},p=c=>{c.key==="Enter"&&r&&(l([...d,{author:`${n.name}`,avatar:`${n.img}`,date:"08/02/2022",content:r,hasMention:!1,isBot:!1}]),s(""))};return i(re,{children:[e(ne,{children:d.map((c,g)=>e(ve,{avatar:c.avatar,author:c.author,date:"21/06/2020",content:c.content},g))}),i(ie,{children:[e(ae,{value:r,onChange:a,onKeyUp:p,type:"text",placeholder:"Conversando no chat"}),e(se,{})]})]})},ce=t.div`
     @media screen and (max-width: 600px){
         display: none;
     }
@@ -328,7 +328,7 @@ import{s as t,m as C,j as i,a as e,T as k,M as F,r as x,S as L,A as S,u as B,R a
     height: 140%;
 `,xe=t.div`
     color: var(--white);
-`,ge=()=>{const{user:r}=m();return i(ce,{children:[e(le,{children:e(pe,{src:`${r.img}`})}),e(xe,{children:`${r.name}`})]})},he=t.div`
+`,he=()=>{const{user:r}=m();return i(ce,{children:[e(le,{children:e(pe,{src:`${r.img}`})}),e(xe,{children:`${r.name}`})]})},ge=t.div`
     display: flex;
     align-items: center;
     padding: 4px 16px;
@@ -380,7 +380,7 @@ import{s as t,m as C,j as i,a as e,T as k,M as F,r as x,S as L,A as S,u as B,R a
     font-size: 14px;
     color: var(--white);
 
-`,ve=r=>i(he,{children:[e(ue,{src:r.avatar}),i(me,{children:[i(fe,{children:[e("strong",{children:r.author}),r.isBot&&e("span",{children:"Bot"}),e("time",{children:r.date})]}),e(be,{children:r.content})]})]}),we=t.div`
+`,ve=r=>i(ge,{children:[e(ue,{src:r.avatar}),i(me,{children:[i(fe,{children:[e("strong",{children:r.author}),r.isBot&&e("span",{children:"Bot"}),e("time",{children:r.date})]}),e(be,{children:r.content})]})]}),we=t.div`
 
     display: flex;
     flex-direction: column;
@@ -451,7 +451,7 @@ import{s as t,m as C,j as i,a as e,T as k,M as F,r as x,S as L,A as S,u as B,R a
         background-color: #404EED;
         
     }
-`;var Be="/Discord-Clone/assets/discordlogo.641b1091.svg";const Ie=()=>{const[r,s]=x.exports.useState(!1),[d,l]=x.exports.useState(!1),[n,a]=x.exports.useState(""),[p,c]=x.exports.useState(""),{setName:h}=m(),y=B();return i(we,{children:[i(Le,{children:[e(ye,{src:Be}),e(Ce,{children:"Boas-vindas de volta!"}),e(ke,{children:"Estamos muito animados em te ver novamente!"})]}),i(Fe,{onSubmit:g=>{g.preventDefault(),n||s(!0),p||l(!0),n&&p&&(h(n),a(""),c(""),y("/Discord-Clone/channels"))},children:[i(v,{bad:r,children:["LOGIN ",r?"- Este campo \xE9 obrigat\xF3rio":""]}),e(w,{autoFocus:!0,type:"text",value:n,onChange:g=>{a(g.target.value),s(!1)},bad:r,maxLength:45}),i(v,{bad:d,children:["SENHA ",d?"- Este campo \xE9 obrigat\xF3rio":""]}),e(w,{type:"password",value:p,onChange:g=>{c(g.target.value),l(!1)},bad:d,maxLength:45}),e(Se,{onClick:()=>{},children:"Entrar"})]})]})};var $e="/Discord-Clone/assets/qr-code.a6db07aa.svg";const Ee=t.div`
+`;var Be="/Discord-Clone/assets/discordlogo.641b1091.svg";const Ie=()=>{const[r,s]=x.exports.useState(!1),[d,l]=x.exports.useState(!1),[n,a]=x.exports.useState(""),[p,c]=x.exports.useState(""),{setName:g}=m(),y=B();return i(we,{children:[i(Le,{children:[e(ye,{src:Be}),e(Ce,{children:"Boas-vindas de volta!"}),e(ke,{children:"Estamos muito animados em te ver novamente!"})]}),i(Fe,{onSubmit:h=>{h.preventDefault(),n||s(!0),p||l(!0),n&&p&&(g(n),a(""),c(""),y("/Discord-Clone/channels"))},children:[i(v,{bad:r,children:["LOGIN ",r?"- Este campo \xE9 obrigat\xF3rio":""]}),e(w,{autoFocus:!0,type:"text",value:n,onChange:h=>{a(h.target.value),s(!1)},bad:r,maxLength:45}),i(v,{bad:d,children:["SENHA ",d?"- Este campo \xE9 obrigat\xF3rio":""]}),e(w,{type:"password",value:p,onChange:h=>{c(h.target.value),l(!1)},bad:d,maxLength:45}),e(Se,{onClick:()=>{},children:"Entrar"})]})]})};var $e="/Discord-Clone/assets/qr-code.a6db07aa.svg";const Ee=t.div`
 
     display: flex;
     flex-direction: column;
@@ -478,7 +478,7 @@ import{s as t,m as C,j as i,a as e,T as k,M as F,r as x,S as L,A as S,u as B,R a
 
     color: #B9BBBE;
     font-size: 14px;
-`,Ne=()=>i(Ee,{children:[e("a",{href:"https://github.com/matheus55391/Discord-Clone",target:"_blank",rel:"meugit",children:e(je,{src:$e})}),e(ze,{children:"Acesse o projeto com o C\xF3digo QR"}),i(Me,{children:["Escaneie isto com a ",e("strong",{children:"c\xE2mera do seu smartphone"})," para acessar o reposit\xF3rio do projeto."]})]}),De=()=>e(U,{children:i(R,{initial:{opacity:.2,y:40},animate:{opacity:1,y:1},transition:{duration:.4},children:[e(Ie,{}),e(Ne,{})]})}),Ue=t.div`
+`,Ne=()=>i(Ee,{children:[e("a",{href:"https://github.com/matheus55391/Discord-Clone",target:"_blank",rel:"meugit",children:e(je,{src:$e})}),e(ze,{children:"Acesse o projeto com o C\xF3digo QR"}),i(Me,{children:["Escaneie isto com a ",e("strong",{children:"c\xE2mera do seu smartphone"})," para acessar o reposit\xF3rio do projeto."]})]}),Ue=()=>e(D,{children:i(R,{initial:{opacity:.2,y:40},animate:{opacity:1,y:1},transition:{duration:.4},children:[e(Ie,{}),e(Ne,{})]})}),De=t.div`
     display: grid;
 
     @media screen and (min-width: 601px){
@@ -500,7 +500,7 @@ import{s as t,m as C,j as i,a as e,T as k,M as F,r as x,S as L,A as S,u as B,R a
     ;
     height: 100vh;
 
-`,Re=()=>i(Ue,{children:[e(P,{}),e(G,{}),e(_,{}),e(Z,{}),e(te,{}),e(de,{}),e(ge,{})]}),Te=()=>i(I,{children:[e(u,{path:"/Discord-Clone/Login",element:e(De,{})}),e(u,{path:"/Discord-Clone/Channels",element:e(Re,{})}),e(u,{path:"/Discord-Clone/*",element:e($,{to:"/Discord-Clone/login"})})]}),Ae=E`
+`,Re=()=>i(De,{children:[e(P,{}),e(G,{}),e(_,{}),e(Z,{}),e(te,{}),e(de,{}),e(he,{})]}),Te=()=>i(I,{children:[e(u,{path:"/Discord-Clone/Login",element:e(Ue,{})}),e(u,{path:"/Discord-Clone/Channels",element:e(Re,{})}),e(u,{path:"/Discord-Clone/*",element:e($,{to:"/Discord-Clone/login"})})]}),Ae=E`
     *{
         margin: 0;
         box-sizing: border-box;
